@@ -1,0 +1,23 @@
+{
+    "name": "BANALL",
+    "description": "Help You To Ban All The Member Of Group",
+    "repository": "https://github.com/LEGEND-AI/BANALL-BOT",
+    "image": "heroku/python",
+    "env": {
+        "BOT_TOKEN": {
+        "description": "Get this value from @BotFather"
+        },
+        "API_HASH":{
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "API_ID":{
+            "description": "Get this value from https://my.telegram.org"
+        }
+    },
+    "formation": {
+            "worker": {
+                "quantity": 1,
+                "size": "eco"
+            }
+        }
+  }
